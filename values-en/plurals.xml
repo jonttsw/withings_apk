@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="_SAVE_SeveralEntries_">
+        <item quantity="zero">Save 0 entries</item>
+        <item quantity="one">Save 1 entry</item>
+        <item quantity="other">Save %1$s entries</item>
+    </plurals>
+    <plurals name="badge_steps_number">
+        <item quantity="zero">No steps</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+    <plurals name="badge_weighIn_number">
+        <item quantity="zero">No weigh-in</item>
+        <item quantity="one">1 weigh-in</item>
+        <item quantity="other">%d weigh-ins</item>
+    </plurals>
+    <plurals name="bloodPressure_over_140_90">
+        <item quantity="zero">0 over 140/90</item>
+        <item quantity="one">1 over 140/90</item>
+        <item quantity="other">%d over 140/90</item>
+    </plurals>
+    <plurals name="cycleTracking_analysis_description_plural">
+        <item quantity="zero">We need a complete cycle to provide your analysis</item>
+        <item quantity="one">Based on your last cycle</item>
+        <item quantity="other">Based on your last %d cycles</item>
+    </plurals>
+    <plurals name="cycleTracking_mostFrequentLogs_description">
+        <item quantity="one">What you logged most during the last cycle.</item>
+        <item quantity="other">What you logged most over the last %d cycles.</item>
+    </plurals>
+    <plurals name="cycleTracking_mostFrequentLogs_description_factors">
+        <item quantity="one">What you logged most over the last %d months.</item>
+        <item quantity="other">What you logged most during the last month.</item>
+    </plurals>
+    <plurals name="cycleTracking_phase_status_inner_menstruation">
+        <item quantity="one">Ends tomorrow</item>
+        <item quantity="other">Ends in %d days</item>
+    </plurals>
+    <plurals name="cycleTracking_phase_status_inner_ovulation">
+        <item quantity="one">Ends tomorrow</item>
+        <item quantity="other">Ends in %d days</item>
+    </plurals>
+    <plurals name="cycleTracking_phase_status_inner_prediction">
+        <item quantity="one">One day late</item>
+        <item quantity="other">%d days late</item>
+    </plurals>
+    <plurals name="days_plural">
+        <item quantity="zero">days</item>
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <plurals name="days_this_month">
+        <item quantity="zero">No days that month</item>
+        <item quantity="one">One day that month</item>
+        <item quantity="other">%d days that month</item>
+    </plurals>
+    <plurals name="elabel_regulatory_title">
+        <item quantity="zero">E-label</item>
+        <item quantity="one">E-label</item>
+        <item quantity="other">E-labels</item>
+    </plurals>
+    <plurals name="events_plural">
+        <item quantity="zero">%d events</item>
+        <item quantity="one">%d event</item>
+        <item quantity="other">%d events</item>
+    </plurals>
+    <plurals name="healthImprovementScore_progress_bad_description">
+        <item quantity="one">Your score decreased by %d point this week.</item>
+        <item quantity="other">Your score decreased by %d points this week.</item>
+    </plurals>
+    <plurals name="healthImprovementScore_progress_good_description">
+        <item quantity="one">Congrats! Your score increased by %d point this week.</item>
+        <item quantity="other">Congrats! Your score increased by %d points this week.</item>
+    </plurals>
+    <plurals name="healthVertical_numberOfPoints">
+        <item quantity="zero">Stable</item>
+        <item quantity="one">%d point</item>
+        <item quantity="other">%d points</item>
+    </plurals>
+    <plurals name="heartRate_asleepHr">
+        <item quantity="zero">Asleep HR: -</item>
+        <item quantity="other">Asleep HR: %d bpm</item>
+    </plurals>
+    <plurals name="heartRate_detail_highHR_subtitle_plural">
+        <item quantity="zero">Your resting HR never rose above %1$d bpm.</item>
+        <item quantity="one">Your resting HR rose above %1$d bpm 1 time.</item>
+        <item quantity="other">Your resting HR rose above %1$d bpm %2$d times.</item>
+    </plurals>
+    <plurals name="heartRate_detail_lowHR_subtitle_plural">
+        <item quantity="zero">Your resting HR never fell below %1$d bpm.</item>
+        <item quantity="one">Your resting HR fell below %1$d bpm 1 time.</item>
+        <item quantity="other">Your resting HR fell below %1$d bpm %2$d times.</item>
+    </plurals>
+    <plurals name="his_description2">
+        <item quantity="one">%d point since last week.</item>
+        <item quantity="other">%d points since last week.</item>
+    </plurals>
+    <plurals name="his_getTo100_minsVariation_unit">
+        <item quantity="zero">Stable</item>
+        <item quantity="one">min</item>
+        <item quantity="other">mins</item>
+    </plurals>
+    <plurals name="his_getTo100_pointsVariation_unit">
+        <item quantity="zero">Stable</item>
+        <item quantity="one">pt</item>
+        <item quantity="other">pts</item>
+    </plurals>
+    <plurals name="his_getTo100_stepsVariation_unit">
+        <item quantity="zero">Stable</item>
+        <item quantity="one">step</item>
+        <item quantity="other">steps</item>
+    </plurals>
+    <plurals name="his_getTo100_yearsVariation_unit">
+        <item quantity="zero">Stable</item>
+        <item quantity="one">year</item>
+        <item quantity="other">years</item>
+    </plurals>
+    <plurals name="his_subScore_card_description2">
+        <item quantity="one">%d point since last week.</item>
+        <item quantity="other">%d points since last week.</item>
+    </plurals>
+    <plurals name="log_plural">
+        <item quantity="zero">0 logs</item>
+        <item quantity="one">1 log</item>
+        <item quantity="other">%d logs</item>
+    </plurals>
+    <plurals name="measures_plural">
+        <item quantity="zero">No measurement</item>
+        <item quantity="one">Measurement</item>
+        <item quantity="other">%d measurements</item>
+    </plurals>
+    <plurals name="medicalChat_unreadMessages_plural">
+        <item quantity="zero">No new message</item>
+        <item quantity="one">1 new message</item>
+        <item quantity="other">%d new messages</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="zero">No more events</item>
+        <item quantity="one">1 more event</item>
+        <item quantity="other">%d more events</item>
+    </plurals>
+    <plurals name="more_measurements_plural">
+        <item quantity="zero">[%key_id:64811667%]</item>
+        <item quantity="one">One more measurement</item>
+        <item quantity="other">%d more measurements</item>
+    </plurals>
+    <plurals name="nerveHealthScore_homeItem_description">
+        <item quantity="zero">Final Score tomorrow</item>
+        <item quantity="one">Final Score tomorrow</item>
+        <item quantity="other">Final Score in %d days</item>
+    </plurals>
+    <plurals name="nerveHealthScore_secondaryCard_predicted_description">
+        <item quantity="zero">Here&apos;s a prediction based on your trend. Weigh-in as often as possible to get a confirmed score in tomorrow.</item>
+        <item quantity="one">Here&apos;s a prediction based on your trend. Weigh-in as often as possible to get a confirmed score in tomorrow.</item>
+        <item quantity="other">Here&apos;s a prediction based on your trend. Weigh-in as often as possible to get a confirmed score in %d days.</item>
+    </plurals>
+    <plurals name="notificationStack_homeStackNoHighlight_subtitle">
+        <item quantity="zero">Open Read Notifications</item>
+        <item quantity="one">Tap to discover</item>
+        <item quantity="other">Tap to discover</item>
+    </plurals>
+    <plurals name="notificationStack_homeStackNoHighlight_title">
+        <item quantity="zero">You have no new notifications.</item>
+        <item quantity="one">You have 1 new notification.</item>
+        <item quantity="other">You have %d new notifications.</item>
+    </plurals>
+    <plurals name="notificationStack_homeStackWithHighlight_title">
+        <item quantity="zero">0 notification</item>
+        <item quantity="one">1 notification</item>
+        <item quantity="other">%d notifications</item>
+    </plurals>
+    <plurals name="results_measurements_toGo_plural">
+        <item quantity="zero">All measurements done</item>
+        <item quantity="one">1 measurement to go</item>
+        <item quantity="other">%d measurements to go</item>
+    </plurals>
+</resources>

@@ -1,0 +1,309 @@
+{
+  "id": 0,
+  "category": "",
+  "modified": 0,
+  "archivable": true,
+  "read": false,
+  "opened": false,
+  "emotion": "",
+  "crmid": "",
+  "day": 0,
+  "deleted": false,
+  "format": "",
+  "created": 0,
+  "bgcolor": "",
+  "content": {
+    "conversation": [
+      {
+        "content": "This test's objective is to estimate your risk of suffering from Obstructive Sleep Apnea (OSA) syndrome while sleeping. It cannot be considered a medical diagnosis. If you think you may be at risk, talk to your doctor.",
+        "expected_user_response": false,
+        "message_id": 0,
+        "message_type": "default_bubble",
+        "content_title": "Stopbang",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": -1,
+            "text": "Continue",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/nextItem?id=1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Gender, age, weight and height are determining factors in calculating this risk, we use the data entered in your profile. Please answer the following questions as accurately as possible.",
+        "expected_user_response": false,
+        "message_id": 1,
+        "message_type": "default_bubble",
+        "content_title": "",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Continue",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/nextItem?id=3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Very loud, so loud that you can be heard in other rooms, that your partner wakes you up and/or someone finishes the night on the couch",
+        "expected_user_response": false,
+        "message_id": 3,
+        "message_type": "default_bubble",
+        "content_title": "Do you snore?",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_s&value=1"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=4"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_s&value=0"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Do you feel tired or drowsy during the day even when you have slept more than 8 hours?",
+        "expected_user_response": false,
+        "message_id": 4,
+        "message_type": "default_bubble",
+        "content_title": "",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/nextItem?id=5"
+              },
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_t&value=1"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/nextItem?id=5"
+              },
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_t&value=0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Has anyone noticed that you seem to stop breathing or have difficulty breathing while you sleep?",
+        "expected_user_response": false,
+        "message_id": 5,
+        "message_type": "default_bubble",
+        "content_title": "",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_o&value=1"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=6"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_o&value=0"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Did you have high blood pressure the last time your blood pressure was checked, do you have high blood pressure or are you being treated for it?",
+        "expected_user_response": false,
+        "message_id": 6,
+        "message_type": "default_bubble",
+        "content_title": "",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_p&value=1"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=7",
+                "conditions": {
+                  "gender": "male"
+                }
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=10",
+                "conditions": {
+                  "gender": "female"
+                }
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_p&value=0"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=7",
+                "conditions": {
+                  "gender": "male"
+                }
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=10",
+                "conditions": {
+                  "gender": "female"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Is your neck circumference greater than or equal to 43 cm / 17 in? (measured at the Adam's apple or estimated from your shirt neckline)\\n",
+        "expected_user_response": false,
+        "message_id": 7,
+        "message_type": "default_bubble",
+        "content_title": "Do you have a large neck size?",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_n&value=1"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=8"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_n&value=0"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "content": "Thanks for taking the test, tap below to see your result",
+        "expected_user_response": false,
+        "message_id": 8,
+        "message_type": "default_bubble",
+        "content_title": "",
+        "isEndMessage": false,
+        "conditionalOnDisplayActions": [
+          {
+            "action": "withings-events://coach/nextItem?id=9"
+          }
+        ]
+      },
+      {
+        "content": "withings-bd2://current/wtweb?url=https://static.withings.com/content/forms/Stop_bang/stopbang_en.html&requireContext=true",
+        "expected_user_response": false,
+        "message_id": 9,
+        "message_type": "url_preview_bubble",
+        "content_title": "",
+        "isEndMessage": false,
+        "conditionalOnTapActions": [
+          {
+            "action": "withings-bd2://current/wtweb?url=https://static.withings.com/content/forms/Stop_bang/stopbang_en.html&requireContext=true"
+          }
+        ]
+      },
+      {
+        "content": "Is your neck circumference greater than or equal to 41 cm / 16 in? (measured at the Adam's apple or estimated from your shirt neckline)",
+        "expected_user_response": false,
+        "message_id": 10,
+        "message_type": "default_bubble",
+        "content_title": "Do you have a large neck size?",
+        "isEndMessage": false,
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_n&value=1"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=8"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "conditionalOnTapActions": [
+              {
+                "action": "withings-events://coach/setContext?key=stopbang_n&value=0"
+              },
+              {
+                "action": "withings-events://coach/nextItem?id=8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "title": "",
+    "button_url": "",
+    "subtitle": "",
+    "button_text": ""
+  }
+}
