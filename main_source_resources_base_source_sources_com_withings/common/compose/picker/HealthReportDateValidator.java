@@ -1,0 +1,50 @@
+package com.withings.common.compose.picker;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import androidx.activity.b0;
+import com.google.android.material.datepicker.CalendarConstraints;
+import kotlin.Metadata;
+import kotlin.jvm.internal.u;
+import org.joda.time.DateTime;
+/* compiled from: DateAndTimePicker.kt */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0007\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/withings/common/compose/picker/HealthReportDateValidator;", "Lcom/google/android/material/datepicker/CalendarConstraints$DateValidator;", "<init>", "()V", "remedy_release"}, k = 1, mv = {1, 9, 0})
+/* loaded from: classes3.dex */
+public final class HealthReportDateValidator implements CalendarConstraints.DateValidator {
+    public static final Parcelable.Creator<HealthReportDateValidator> CREATOR = new Object();
+
+    /* compiled from: DateAndTimePicker.kt */
+    /* loaded from: classes3.dex */
+    public static final class a implements Parcelable.Creator<HealthReportDateValidator> {
+        @Override // android.os.Parcelable.Creator
+        public final HealthReportDateValidator createFromParcel(Parcel parcel) {
+            u.j(parcel, "parcel");
+            parcel.readInt();
+            return new HealthReportDateValidator();
+        }
+
+        @Override // android.os.Parcelable.Creator
+        public final HealthReportDateValidator[] newArray(int i11) {
+            return new HealthReportDateValidator[i11];
+        }
+    }
+
+    @Override // com.google.android.material.datepicker.CalendarConstraints.DateValidator
+    public final boolean F0(long j5) {
+        DateTime dateTime = new DateTime(j5);
+        DateTime withTimeAtStartOfDay = DateTime.now().withTimeAtStartOfDay();
+        u.i(withTimeAtStartOfDay, "withTimeAtStartOfDay(...)");
+        return b0.p(dateTime, withTimeAtStartOfDay);
+    }
+
+    @Override // android.os.Parcelable
+    public final int describeContents() {
+        return 0;
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel out, int i11) {
+        u.j(out, "out");
+        out.writeInt(1);
+    }
+}
