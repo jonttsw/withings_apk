@@ -1,0 +1,13 @@
+{
+  "capabilities": [
+    { "id": "programs", "version": 1 },
+    { "id": "video-workout", "version": 1 },
+    { "id": "recipe", "version": 1 },
+    { "id": "article", "version": 1 },
+    { "id": "measurement", "version": 2 },
+    { "id": "objective-active-minutes", "version": 1 },
+    { "id": "in-app-survey", "version": 1 },
+    { "id": "discovery", "version": 1 },
+    { "id": "objective-steps", "version": 1 }
+  ]
+}

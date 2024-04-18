@@ -1,0 +1,304 @@
+{
+  "title": "YOUR TITLE",
+  "subtitle": "YOUR SUBTITLE",
+  "button_text": "THE TEXT ON YOUR BUTTON",
+  "type": "survey",
+  "items": [
+    {
+      "type": "statement",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "1"
+          }
+        ]
+      },
+      "content": "This survey is here to allow you to test many cases inside survey",
+      "title": "Hello and welcome to the survey section of withings",
+      "footer": "Welcome and thanks for testing !",
+      "id": 0,
+      "button_text": "Next."
+    },
+    {
+      "type": "single_choice",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "3",
+            "conditions": {
+              "op": "and/or",
+              "input": "0"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "2",
+            "conditions": {
+              "op": "and/or",
+              "input": "1"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "unique": false
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "unique": false
+          }
+        ]
+      },
+      "content": "Do you have 5 minutes to test this survey ? :)",
+      "id": 1,
+      "button_text": "Next."
+    },
+    {
+      "type": "statement",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "timeline"
+          }
+        ]
+      },
+      "content": "Bye !",
+      "title": "Too bad !",
+      "id": 2,
+      "button_text": "See you soon :)"
+    },
+    {
+      "type": "text",
+      "input_metadata": {
+        "placeholder": "text",
+        "actions": [
+          {
+            "action_type": "setLocalProperty",
+            "property": "how_are_you",
+            "value": "$input"
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "4"
+          }
+        ]
+      },
+      "content": "How are you today ?",
+      "footer": "i hope you're doing good",
+      "id": 3,
+      "button_text": "Next question."
+    },
+    {
+      "type": "single_choice",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "6",
+            "conditions": {
+              "op": "and/or",
+              "input": "0"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "5",
+            "conditions": {
+              "op": "and/or",
+              "input": "1"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Yes",
+            "unique": false
+          },
+          {
+            "id": 1,
+            "text": "No",
+            "unique": false
+          }
+        ]
+      },
+      "content": "Are there animals that share your life",
+      "id": 4,
+      "button_text": "Next question."
+    },
+    {
+      "type": "statement",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "timeline"
+          }
+        ]
+      },
+      "content": "Thanks for your answers !",
+      "id": 5,
+      "button_text": "Bye :)"
+    },
+    {
+      "type": "number_keyboard",
+      "input_metadata": {
+        "placeholder": "0",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "7"
+          }
+        ]
+      },
+      "content": "How many ?",
+      "id": 6,
+      "button_text": "YOUR BUTTON TEXT"
+    },
+    {
+      "type": "multiple_choice",
+      "input_metadata": {
+        "default_jump": 5,
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "8"
+          }
+        ],
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Cat",
+            "unique": false
+          },
+          {
+            "id": 1,
+            "text": "Dog",
+            "unique": false
+          },
+          {
+            "id": 2,
+            "text": "Fish",
+            "unique": false
+          },
+          {
+            "id": 3,
+            "text": "Bird",
+            "unique": false
+          },
+          {
+            "id": 4,
+            "text": "Turtle",
+            "unique": false
+          },
+          {
+            "id": 5,
+            "text": "Snake",
+            "unique": false
+          },
+          {
+            "id": 6,
+            "text": "Rabbit",
+            "unique": false
+          },
+          {
+            "id": 7,
+            "text": "Lizard",
+            "unique": false
+          },
+          {
+            "id": 8,
+            "text": "Spider",
+            "unique": false
+          },
+          {
+            "id": 9,
+            "text": "Frog",
+            "unique": false
+          }
+        ],
+        "default_suggestions": {
+          "id": 10,
+          "text": "Other...",
+          "unique": true,
+          "keyboard_active": false
+        }
+      },
+      "content": "What type ?",
+      "title": "Cool !",
+      "id": 7,
+      "button_text": "Next question."
+    },
+    {
+      "type": "phone_number",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "content": "Type your phone number",
+      "title": "Just for test purpose",
+      "id": 8,
+      "button_text": "Next question."
+    },
+    {
+      "type": "datetime",
+      "input_metadata": {
+        "type": "date",
+        "start_date": "2022-05-01",
+        "end_date": "2022-05-15",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "10"
+          }
+        ]
+      },
+      "content": "Select a date",
+      "title": "Please :)",
+      "id": 9,
+      "button_text": "Next question"
+    },
+    {
+      "type": "email_address",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "11"
+          }
+        ]
+      },
+      "content": "register your mail",
+      "id": 10,
+      "button_text": "YOUR BUTTON TEXT"
+    },
+    {
+      "type": "number_picker",
+      "input_metadata": {
+        "placeholder": "27°C",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "5"
+          }
+        ],
+        "suffix": "°C",
+        "prefix": "",
+        "min": "0",
+        "max": "42",
+        "step": "1"
+      },
+      "content": "What is the actual temperature ?",
+      "id": 11,
+      "button_text": "Next question."
+    }
+  ]
+}

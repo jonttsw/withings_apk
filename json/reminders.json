@@ -1,0 +1,392 @@
+[
+    {
+        "reminderTypeId": 1,
+        "category": 3,
+        "categoryName": "__SLEEP__",
+        "name": "__RMNDR SLEEP REGULARITY TITLE__",
+        "color": "WTsleep",
+        "info1": "__RMNDR SLEEP REGULARITY INFO1__",
+        "info2": "__RMNDR SLEEP REGULARITY INFO2__",
+        "timelineName": "__RMNDR SLEEP REGULARITY ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 23,
+        "image": "reminder_sleep_regularity"
+    },
+    {
+        "reminderTypeId": 2,
+        "category": 3,
+        "categoryName": "__SLEEP__",
+        "name": "__RMNDR SLEEP TEA TITLE__",
+        "color": "WTsleep",
+        "info1": "__RMNDR SLEEP TEA INFO1__",
+        "info2": "__RMNDR SLEEP TEA INFO2__",
+        "timelineName": "__RMNDR SLEEP TEA ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 22,
+        "image": "reminder_sleep_tea"
+    },
+    {
+        "reminderTypeId": 3,
+        "category": 3,
+        "categoryName": "__SLEEP__",
+        "name": "__RMNDR SLEEP RITUAL TITLE__",
+        "color": "WTsleep",
+        "info1": "__RMNDR SLEEP RITUAL INFO1__",
+        "info2": "__RMNDR SLEEP RITUAL INFO2__",
+        "timelineName": "__RMNDR SLEEP RITUAL ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 22,
+        "image": "reminder_sleep_ritual"
+    },
+    {
+        "reminderTypeId": 4,
+        "category": 3,
+        "categoryName": "__SLEEP__",
+        "name": "__RMNDR SLEEP CAFFEINE TITLE__",
+        "color": "WTsleep",
+        "info1": "__RMNDR SLEEP CAFFEINE INFO1__",
+        "info2": "__RMNDR SLEEP CAFFEINE INFO2__",
+        "timelineName": "__RMNDR SLEEP CAFFEINE ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 17,
+        "image": "reminder_sleep_caffeine"
+    },
+    {
+        "reminderTypeId": 5,
+        "category": 3,
+        "categoryName": "__SLEEP__",
+        "name": "__RMNDR SLEEP EXERCISE TITLE__",
+        "color": "WTsleep",
+        "info1": "__RMNDR SLEEP EXERCISE INFO1__",
+        "info2": "__RMNDR SLEEP EXERCISE INFO2__",
+        "timelineName": "__RMNDR SLEEP EXERCISE ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 19,
+        "image": "reminder_sleep_exercise"
+    },
+    {
+        "reminderTypeId": 6,
+        "category": 0,
+        "categoryName": "__POIDS__",
+        "name": "__RMNDR WEIGHT REGULARITY TITLE__",
+        "color": "WTweight",
+        "info1": "__RMNDR WEIGHT REGULARITY INFO1__",
+        "info2": "__RMNDR WEIGHT REGULARITY INFO2__",
+        "timelineName": "__RMNDR WEIGHT REGULARITY ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 7,
+        "image": "reminder_weight_regularity"
+    },
+    {
+        "reminderTypeId": 7,
+        "category": 0,
+        "categoryName": "__POIDS__",
+        "name": "__RMNDR WEIGHT LOG TITLE__",
+        "color": "WTweight",
+        "info1": "__RMNDR WEIGHT LOG INFO1__",
+        "info2": "__RMNDR WEIGHT LOG INFO2__",
+        "timelineName": "__RMNDR WEIGHT LOG ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 13,
+        "image": "reminder_weight_log"
+    },
+    {
+        "reminderTypeId": 8,
+        "category": 0,
+        "categoryName": "__POIDS__",
+        "name": "__RMNDR WEIGHT BRKFST TITLE__",
+        "color": "WTweight",
+        "info1": "__RMNDR WEIGHT BRKFST INFO1__",
+        "info2": "__RMNDR WEIGHT BRKFST INFO2__",
+        "timelineName": "__RMNDR WEIGHT BRKFST ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 7,
+        "image": "reminder_weight_breakfast"
+    },
+    {
+        "reminderTypeId": 9,
+        "category": 0,
+        "categoryName": "__POIDS__",
+        "name": "__RMNDR WEIGHT FRUITS TITLE__",
+        "color": "WTweight",
+        "info1": "__RMNDR WEIGHT FRUITS INFO1__",
+        "info2": "__RMNDR WEIGHT FRUITS INFO2__",
+        "timelineName": "__RMNDR WEIGHT FRUITS ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 12,
+        "image": "reminder_weight_fruits"
+    },
+    {
+        "reminderTypeId": 10,
+        "category": 0,
+        "categoryName": "__POIDS__",
+        "name": "__RMNDR WEIGHT WATER TITLE__",
+        "color": "WTweight",
+        "info1": "__RMNDR WEIGHT WATER INFO1__",
+        "info2": "__RMNDR WEIGHT WATER INFO2__",
+        "timelineName": "__RMNDR WEIGHT WATER ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 17,
+        "image": "reminder_weight_water"
+    },
+    {
+        "reminderTypeId": 11,
+        "category": 1,
+        "categoryName": "__ACTIVITY__",
+        "name": "__RMNDR ACTIVITY RUN TITLE__",
+        "color": "WTactivity",
+        "info1": "__RMNDR ACTIVITY RUN INFO1__",
+        "info2": "__RMNDR ACTIVITY RUN INFO2__",
+        "timelineName": "__RMNDR ACTIVITY RUN ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 7,
+        "image": "reminder_activity_run"
+    },
+    {
+        "reminderTypeId": 12,
+        "category": 1,
+        "categoryName": "__ACTIVITY__",
+        "name": "__RMNDR ACTIVITY RUN DINNER WALK TITLE__",
+        "color": "WTactivity",
+        "info1": "__RMNDR ACTIVITY RUN DINNER WALK INFO1__",
+        "info2": "__RMNDR ACTIVITY RUN DINNER WALK INFO2__",
+        "timelineName": "__RMNDR ACTIVITY RUN DINNER WALK ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 22,
+        "image": "reminder_activity_run_dinner_walk"
+    },
+    {
+        "reminderTypeId": 13,
+        "category": 1,
+        "categoryName": "__ACTIVITY__",
+        "name": "__RMNDR ACTIVITY CHLLNG FRNDS TITLE__",
+        "color": "WTactivity",
+        "info1": "__RMNDR ACTIVITY CHLLNG FRNDS INFO1__",
+        "info2": "__RMNDR ACTIVITY CHLLNG FRNDS INFO2__",
+        "timelineName": "__RMNDR ACTIVITY CHLLNG FRNDS ITEM__",
+        "defaultDays": [
+            2
+        ],
+        "defaultTime": 10,
+        "image": "reminder_activity_challenge_friends"
+    },
+    {
+        "reminderTypeId": 14,
+        "category": 1,
+        "categoryName": "__ACTIVITY__",
+        "name": "__RMNDR ACTIVITY CALLS WALKING TITLE__",
+        "color": "WTactivity",
+        "info1": "__RMNDR ACTIVITY CALLS WALKING INFO1__",
+        "info2": "__RMNDR ACTIVITY CALLS WALKING INFO2__",
+        "timelineName": "__RMNDR ACTIVITY CALLS WALKING ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 20,
+        "image": "reminder_activity_calls_walking"
+    },
+    {
+        "reminderTypeId": 15,
+        "category": 1,
+        "categoryName": "__ACTIVITY__",
+        "name": "__RMNDR ACTIVITY MUSEUM TITLE__",
+        "color": "WTactivity",
+        "info1": "__RMNDR ACTIVITY MUSEUM INFO1__",
+        "info2": "__RMNDR ACTIVITY MUSEUM INFO2__",
+        "timelineName": "__RMNDR ACTIVITY MUSEUM ITEM__",
+        "defaultDays": [
+            5
+        ],
+        "defaultTime": 15,
+        "image": "reminder_activity_museum"
+    },
+    {
+        "reminderTypeId": 20,
+        "category": 2,
+        "categoryName": "__HEART__",
+        "name": "reminders_takeEcg_title",
+        "color": "WThr",
+        "info1": "reminders_takeEcg_why",
+        "info2": "reminders_takeEcg_when",
+        "timelineName": "reminders_takeEcg_timeline",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 19,
+        "image": "reminders_take_an_ecg"
+    },
+    {
+        "reminderTypeId": 16,
+        "category": 2,
+        "categoryName": "__HEART__",
+        "name": "__RMNDR HEART BP TITLE__",
+        "color": "WThr",
+        "info1": "__RMNDR HEART BP INFO1__",
+        "info2": "__RMNDR HEART BP INFO2__",
+        "timelineName": "__RMNDR HEART BP ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 19,
+        "image": "reminder_heart_bp"
+    },
+    {
+        "reminderTypeId": 17,
+        "category": 2,
+        "categoryName": "__HEART__",
+        "name": "__RMNDR HEART SALT TITLE__",
+        "color": "WThr",
+        "info1": "__RMNDR HEART SALT INFO1__",
+        "info2": "__RMNDR HEART SALT INFO2__",
+        "timelineName": "__RMNDR HEART SALT ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 19,
+        "image": "reminder_heart_salt"
+    },
+    {
+        "reminderTypeId": 18,
+        "category": 2,
+        "categoryName": "__HEART__",
+        "name": "__RMNDR HEART ALCOHOL TITLE__",
+        "color": "WThr",
+        "info1": "__RMNDR HEART ALCOHOL INFO1__",
+        "info2": "__RMNDR HEART ALCOHOL INFO2__",
+        "timelineName": "__RMNDR HEART ALCOHOL ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "defaultTime": 19,
+        "image": "reminder_heart_alcohol"
+    },
+    {
+        "reminderTypeId": 19,
+        "category": 2,
+        "categoryName": "__HEART__",
+        "name": "__RMNDR HEART CALCIUM TITLE__",
+        "color": "WThr",
+        "info1": "__RMNDR HEART CALCIUM INFO1__",
+        "info2": "__RMNDR HEART CALCIUM INFO2__",
+        "timelineName": "__RMNDR HEART CALCIUM ITEM__",
+        "defaultDays": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "defaultTime": 8,
+        "image": "reminder_heart_calcium"
+    }
+]

@@ -1,0 +1,172 @@
+    _SAVE_SeveralEntries_
+        Save 0 entries
+        Save 1 entry
+        Save %1$s entries
+
+    badge_steps_number
+        No steps
+        %d steps
+
+    badge_weighIn_number
+        No weigh-in
+        1 weigh-in
+        %d weigh-ins
+
+    bloodPressure_over_140_90
+        0 over 140/90
+        1 over 140/90
+        %d over 140/90
+
+    cycleTracking_analysis_description_plural
+        We need a complete cycle to provide your analysis
+        Based on your last cycle
+        Based on your last %d cycles
+
+    cycleTracking_mostFrequentLogs_description
+        What you logged most during the last cycle.
+        What you logged most over the last %d cycles.
+
+    cycleTracking_mostFrequentLogs_description_factors
+        What you logged most over the last %d months.
+        What you logged most during the last month.
+
+    cycleTracking_phase_status_inner_menstruation
+        Ends tomorrow
+        Ends in %d days
+
+    cycleTracking_phase_status_inner_ovulation
+        Ends tomorrow
+        Ends in %d days
+
+    cycleTracking_phase_status_inner_prediction
+        One day late
+        %d days late
+
+    days_plural
+        days
+        day
+        days
+
+    days_this_month
+        No days that month
+        One day that month
+        %d days that month
+
+    elabel_regulatory_title
+        E-label
+        E-label
+        E-labels
+
+    events_plural
+        %d events
+        %d event
+        %d events
+
+    healthImprovementScore_progress_bad_description
+        Your score decreased by %d point this week.
+        Your score decreased by %d points this week.
+
+    healthImprovementScore_progress_good_description
+        Congrats! Your score increased by %d point this week.
+        Congrats! Your score increased by %d points this week.
+
+    healthVertical_numberOfPoints
+        Stable
+        %d point
+        %d points
+
+    heartRate_asleepHr
+        Asleep HR: -
+        Asleep HR: %d bpm
+
+    heartRate_detail_highHR_subtitle_plural
+        Your resting HR never rose above %1$d bpm.
+        Your resting HR rose above %1$d bpm 1 time.
+        Your resting HR rose above %1$d bpm %2$d times.
+
+    heartRate_detail_lowHR_subtitle_plural
+        Your resting HR never fell below %1$d bpm.
+        Your resting HR fell below %1$d bpm 1 time.
+        Your resting HR fell below %1$d bpm %2$d times.
+
+    his_description2
+        %d point since last week.
+        %d points since last week.
+
+    his_getTo100_minsVariation_unit
+        Stable
+        min
+        mins
+
+    his_getTo100_pointsVariation_unit
+        Stable
+        pt
+        pts
+
+    his_getTo100_stepsVariation_unit
+        Stable
+        step
+        steps
+
+    his_getTo100_yearsVariation_unit
+        Stable
+        year
+        years
+
+    his_subScore_card_description2
+        %d point since last week.
+        %d points since last week.
+
+    log_plural
+        0 logs
+        1 log
+        %d logs
+
+    measures_plural
+        No measurement
+        Measurement
+        %d measurements
+
+    medicalChat_unreadMessages_plural
+        No new message
+        1 new message
+        %d new messages
+
+    more_events
+        No more events
+        1 more event
+        %d more events
+
+    more_measurements_plural
+        One more measurement
+        %d more measurements
+
+    nerveHealthScore_homeItem_description
+        Final Score tomorrow
+        Final Score tomorrow
+        Final Score in %d days
+
+    nerveHealthScore_secondaryCard_predicted_description
+        Here&apos;s a prediction based on your trend. Weigh-in as often as possible to get a confirmed score in tomorrow.
+        Here&apos;s a prediction based on your trend. Weigh-in as often as possible to get a confirmed score in tomorrow.
+        Here&apos;s a prediction based on your trend. Weigh-in as often as possible to get a confirmed score in %d days.
+
+    notificationStack_homeStackNoHighlight_subtitle
+        Open Read Notifications
+        Tap to discover
+        Tap to discover
+
+    notificationStack_homeStackNoHighlight_title
+        You have no new notifications.
+        You have 1 new notification.
+        You have %d new notifications.
+
+    notificationStack_homeStackWithHighlight_title
+        0 notification
+        1 notification
+        %d notifications
+
+    results_measurements_toGo_plural
+        All measurements done
+        1 measurement to go
+        %d measurements to go

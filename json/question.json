@@ -1,0 +1,13 @@
+{
+  "type": "statement",
+  "input_metadata": {
+    "actions": [
+      {
+        "action_type": "timeline"
+      }
+    ]
+  },
+  "content": "Thanks for your answers !",
+  "id": 5,
+  "button_text": "Bye :)"
+}

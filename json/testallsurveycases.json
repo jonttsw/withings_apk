@@ -1,0 +1,341 @@
+{
+  "title": "YOUR TITLE",
+  "subtitle": "YOUR SUBTITLE",
+  "button_text": "THE TEXT ON YOUR BUTTON",
+  "type": "survey",
+  "items": [
+    {
+      "type": "single_choice",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "1",
+            "conditions": {
+              "op": "and/or",
+              "input": "0"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "2",
+            "conditions": {
+              "op": "and/or",
+              "input": "1"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "3",
+            "conditions": {
+              "op": "and/or",
+              "input": "2"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "4",
+            "conditions": {
+              "op": "and/or",
+              "input": "3"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "5",
+            "conditions": {
+              "op": "and/or",
+              "input": "4"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "6",
+            "conditions": {
+              "op": "and/or",
+              "input": "5"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "7",
+            "conditions": {
+              "op": "and/or",
+              "input": "6"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "8",
+            "conditions": {
+              "op": "and/or",
+              "input": "7"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Go to statement",
+            "unique": false
+          },
+          {
+            "id": 1,
+            "text": "Go to mullitpleChoice",
+            "unique": false
+          },
+          {
+            "id": 2,
+            "text": "Go to phoneInput",
+            "unique": false
+          },
+          {
+            "id": 3,
+            "text": "Go to mailInput",
+            "unique": false
+          },
+          {
+            "id": 4,
+            "text": "Go to dateInput",
+            "unique": false
+          },
+          {
+            "id": 5,
+            "text": "Go to textInput",
+            "unique": false
+          },
+          {
+            "id": 6,
+            "text": "Go to numberInput",
+            "unique": false
+          },
+          {
+            "id": 7,
+            "text": "Go to numberPicker",
+            "unique": false
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "select a choice to go to the next screen",
+      "title": "Test everything !",
+      "footer": "i'm just here for test",
+      "id": 0,
+      "button_text": "Next question."
+    },
+    {
+      "type": "statement",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a statement",
+      "title": "i'm just here to inform you that i am a statement",
+      "footer": "i'm just here for test",
+      "id": 1,
+      "button_text": "Next question."
+    },
+    {
+      "type": "multiple_choice",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9",
+            "conditions": {
+              "op": "and/or",
+              "input": "0"
+            }
+          },
+          {
+            "action_type": "nextItem",
+            "message_id": "9",
+            "conditions": {
+              "op": "and/or",
+              "input": "1"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "id": 0,
+            "text": "Last screen",
+            "unique": false
+          },
+          {
+            "id": 1,
+            "text": "Also last screen",
+            "unique": false
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a multiple choiceQuestion",
+      "id": 2,
+      "button_text": "Next question."
+    },
+    {
+      "type": "phone_number",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a phoneInput",
+      "id": 3,
+      "button_text": "Next question."
+    },
+    {
+      "type": "email_address",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a mailInput",
+      "id": 4,
+      "button_text": "Next question."
+    },
+    {
+      "type": "datetime",
+      "input_metadata": {
+        "type": "date",
+        "start_date": "2022-05-01",
+        "end_date": "2022-05-15",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a dateInput",
+      "footer": "Test",
+      "id": 5,
+      "button_text": "Next question."
+    },
+    {
+      "type": "text",
+      "input_metadata": {
+        "placeholder": "This is a placeholder",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is  textInput",
+      "id": 6,
+      "button_text": "Next question."
+    },
+    {
+      "type": "number_keyboard",
+      "input_metadata": {
+        "placeholder": "This is a placeholder",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a numberInput",
+      "id": 7,
+      "button_text": "Next question."
+    },
+    {
+      "type": "number_picker",
+      "input_metadata": {
+        "placeholder": "This is a placeholder",
+        "actions": [
+          {
+            "action_type": "nextItem",
+            "message_id": "9"
+          }
+        ],
+        "suffix": "°C",
+        "prefix": "$",
+        "min": "36",
+        "max": "42",
+        "step": "0.1"
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is a numberPicker",
+      "id": 8,
+      "button_text": "Next question."
+    },
+    {
+      "type": "statement",
+      "input_metadata": {
+        "actions": [
+          {
+            "action_type": "timeline"
+          }
+        ]
+      },
+      "progress_bar": {
+        "current_step": 1,
+        "nb_steps": 3,
+        "step_name": "Introduction"
+      },
+      "content": "This is the end",
+      "title": "Thanks for testing",
+      "footer": "i'm just here for test",
+      "id": 9,
+      "button_text": "Finish !"
+    }
+  ]
+}
